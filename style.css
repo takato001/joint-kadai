@@ -67,21 +67,41 @@ text-align:center;
 }
 .content1-up p{
   padding:1% 0%;
-font-size:1.5vw;
+font-size:1.2vw;
 line-height:1;
+letter-spacing:0.2em;
 }
 .content1-down{
 width:100%;
+margin-left:20%;
 }
 .content1-down-a{
-width:30%;
+width:20%;
 float:left;
-padding:0% 2%;
+padding:0% 1%;
 text-align: center;
 }
 .content1-down-a img{
 width:100%;
 }
 .content1-down-a p{
+padding:1% 0%;
+font-size:1vw;
+}
+.content2{
 padding:2% 0%;
+}
+.content2-down{
+padding:1% 0%;
+margin-left: 18%;
+}
+.content2-down ul li{
+float:left;
+width:20%;
+padding:0% 1%;
+}
+.content2-down ul li img{
+width:100%;
+border-radius:10%;
+
 }
