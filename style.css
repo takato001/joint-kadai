@@ -446,3 +446,40 @@ text-align:left;
 .footer-right p{
 font-size:1vw;
 }
+.top1{
+margin-top:3%;
+border-top:1px solid #888;
+border-bottom:1px solid #888;
+
+}
+.top1-left{
+float:left;
+width:5%;
+padding:1% 1%;
+margin-left:17%;
+border-right:1px solid #888;
+}
+.top1-left p{
+  font-size:0.5vw;
+}
+.top1-right{
+float:left;
+width:11%;
+padding:1% 1%;
+margin-right:67%;
+}
+.top1-right p{
+font-size:0.5vw;
+color:#BB0000;
+}
+.top2-left{
+float:left;
+width:40%;
+background-color: #888;
+border-right: 1px solid #888;
+}
+.top2-left ul li{
+padding:4% 42%;
+border-bottom:1px solid;
+font-size:1.5vw;
+}
