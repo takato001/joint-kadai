@@ -197,12 +197,13 @@ border-radius: 5%;
 .content5-down-left-left{
   border-bottom:1px solid #888;
 }
+
 .content5-down-left-a{
   width:25%;
   float: left;
 text-align: center;
 padding:7% 0%;
-border-bottom:1px solid #888;
+
 
 }
 .content5-down-left-a p{
@@ -1202,7 +1203,7 @@ float:left
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  flex-flow: column; 
+  flex-flow: column;
   vertical-align: top;
 }
 
@@ -1300,7 +1301,7 @@ padding: 5%;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  flex-flow: column; 
+  flex-flow: column;
   vertical-align: top;
 }
 
