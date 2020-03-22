@@ -2,14 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style2.css">
-<link rel="stylesheet" href="reset2.css">
-<link rel="stylesheet" href="respon2.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="respon.css">
 
 <script src="https://kit.fontawesome.com/dda8a2430a.js" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="https://
+ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
+<script>
+$(function(){
+$(window).scroll(function (){
+        $('.recipe-B3-1-A').each(function(){
+            var targetElement = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > targetElement - windowHeight + 200){
+                $(this).css('opacity','1');
+                $(this).css('transform','translateY(0)');
+            }
+        });
+    });
+
+$(".menu-left").on("click",function(){                                                              
+     $(".maru size_normal red").animate({"width":"200px"},1000,function(){                                           
+        $(".maru size_normal red").animate({"width":"120px"},3000,function(){                                        
+        });                                                                                           
+     });
+  });  
+
+
+ });
+</script>
 </head>
 <body>
 
