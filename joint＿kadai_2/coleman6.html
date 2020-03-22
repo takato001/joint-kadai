@@ -1,0 +1,487 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="respon.css">
+
+<script src="https://kit.fontawesome.com/dda8a2430a.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://
+ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script>
+$(function(){
+$(window).scroll(function (){
+        $('.recipe-B3-1-A').each(function(){
+            var targetElement = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > targetElement - windowHeight + 200){
+                $(this).css('opacity','1');
+                $(this).css('transform','translateY(0)');
+            }
+        });
+    });
+
+$(".menu-left").on("click",function(){                                                              
+     $(".maru size_normal red").animate({"width":"200px"},1000,function(){                                           
+        $(".maru size_normal red").animate({"width":"120px"},3000,function(){                                        
+        });                                                                                           
+     });
+  });  
+
+
+ });
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+
+ <div class="head">
+  <div class="head-up cf">
+    <div class="head-up-a">
+     <p>メールマガジン</p>
+    </div>
+    <!--head-up-a-->
+    <div class="head-up-a">
+     <p>店舗情報</p>
+    </div>
+    <!--head-up-a-->
+    <div class="head-up-b">
+     <p>カスタマーサポート</p>
+    </div>
+    <!--head-up-a-->
+  </div>
+  <!--head-up-->
+ </div>
+ <!--head-->
+<div class="head2 cf">
+ <div class="head2-menu">
+   <ul>
+     <li>オンラインショップ<br><br><span>Online shop</span></li>
+      <li>イベント情報<br><br><span>Events</span></li>
+       <li>キャンプ場＆サービス<br><br><span>Campfield ＆ Service</span></li>
+        <li>アウトドアレシピ<br><br><span>Recipe</span></li>
+         <li>アウトドアコラム<br><br><span>Columns</span></li>
+          <li>メンバーシップ<br><br><span>COC</span></li>
+           <li>コールマンの取り組み<br><br><span>CSR</span></li>
+   </ul>
+ </div>
+ <!--head2-menu-->
+
+</div>
+<!--head2-->
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="recipe-block1">
+    <div class="recipe-B1-1">
+      <p>Top<span class="recipe-sabu">アウトドアレシピ</span></p>
+    </div>
+    <div class="recipe-B1-2">
+      <h2>カンタンアウトドアレシピ</h2>
+      <h3>Outdoor　Resipe</h3>
+      <p>簡単なメニューから本格派まで誰でも作れる野外料理レシピ集。</p>
+      <p>アウトドアならではの食材の扱い方や、便利なアイデアが満載です。</p>
+      <p>旬のものを現地で調達するのも美味しさの秘密。</p>
+      <p>作る時間も食べる時間も合わせて楽しみましょう。</p>
+    </div>
+  </div>
+
+
+
+
+  <div class="recipe-block2">
+    <div class="cf">
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">食材<br>から選択</div>
+        </div>
+        <ul>
+          <li>肉</li>
+          <li>魚介類</li>
+          <li>野菜</li>
+          <li>米・麺</li>
+          <li>果物</li>
+          <li>卵・乳製品</li>
+          <li>その他</li>
+        </ul>
+      </div>
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">調理時間<br>から選択</div>
+        </div>
+        <ul>
+          <li>15分以内</li>
+          <li>30分以内</li>
+          <li>60分以内</li>
+          <li>60分以上</li>
+        </ul>
+      </div>
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">ジャンル<br>から選択</div>
+        </div>
+        <ul>
+          <li>和食</li>
+          <li>エスニック</li>
+          <li>洋食</li>
+          <li>中華</li>
+          <li>BBQ</li>
+          <li>ドリンク</li>
+          <li>デザート</li>
+          <li>その他</li>
+        </ul>
+      </div>
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">メニュー<br>から選択</div>
+        </div>
+        <ul>
+          <li>ご飯物</li>
+          <li>主菜</li>
+          <li>副菜</li>
+          <li>麺類</li>
+          <li>スープ・汁物</li>
+          <li>デザート</li>
+          <li>その他</li>
+        </ul>
+      </div>
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">調理方法<br>から選択</div>
+        </div>
+        <ul>
+          <li>煮る</li>
+          <li>焼く</li>
+          <li>揚げる</li>
+          <li>炒める</li>
+          <li>蒸す</li>
+          <li>火を使わない</li>
+          <li>炊く</li>
+          <li>その他</li>
+          <li>燻す</li>
+        </ul>
+      </div>
+
+      <div class="recipe-B2-1">
+        <div class="maru size_normal red">
+          <div class="recipe-B2-1-A">調理器具<br>から選択</div>
+        </div>
+        <ul>
+          <li>ツーバーナー</li>
+          <li>ワンバーナー</li>
+          <li>クッカーセット</li>
+          <li>シングルバーナー</li>
+          <li>シェラカップ</li>
+          <li>キャンピングオーブン</li>
+          <li>スモーカー</li>
+          <li>ダッチオーブン</li>
+          <li>クーラーボックス</li>
+          <li>BBQ</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="recipe-block3">
+    <div class="recipe-B3-title">
+      <h2>注目のレシピ</h2>
+    </div>
+
+    <div class="recipe-B3-1">
+      <div class="cf">
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/b.jpg">
+          <h2>オイキムチ</h2>
+          <h3>おかずにもつまみにもなる便利な1品</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/c.jpg">
+          <h2>りんごのコンポート</h2>
+          <h3>コトコト煮るだけの作りおき。</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/d.jpg">
+          <h2>イタリアンエビチリ</h2>
+          <h3>アンチョビが隠し味</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/e.jpg">
+          <h2>カラフル白玉のチェー</h2>
+          <h3>冷たく冷やして食べたいココナッツミルクのおしるこ</h3>
+        </div>
+
+      </div>      
+    </div>
+
+
+    <div class="recipe-B3-1">
+      <div class="cf">
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/f.jpg">
+          <h2>エビと卵のココナッツカレー炒め</h2>
+          <h3>ごはんによく合うタイ風カレー炒め</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/g.jpg">
+          <h2>レモン水餃子</h2>
+          <h3>さっぱりと食べられるひとくちサイズの水餃子</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/h.jpg">
+          <h2>さば缶の冷汁風そうめん</h2>
+          <h3>缶詰を使うから味付けいらず</h3>
+        </div>
+
+        <div class="recipe-B3-1-A">
+          <p>Recipe</p>
+          <img src="recipe-photo/i.jpg">
+          <h2>おつまみフレンチトースト</h2>
+          <h3>ひとくちサイズの’おつまみ’</h3>
+        </div>
+
+      </div>      
+    </div>
+
+  </div>
+
+
+
+
+  <div class="recipe-block4">
+    <div class="maru2 size_normal2 block">
+      <div class="recipe-B4-1">もっと見る</div>
+　　　<i class="fas fa-angle-down"></i>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content7 cf">
+ <div class="content7-left">
+   <p>Coleman Online Shop</p>
+ </div>
+ <!--content7-left-->
+  <div class="content7-right cf">
+    <div class="content7-sns cf">
+      <div class="content7-sns-left">
+        <i class="fab fa-twitter-square"></i>
+      </div>
+      <!--content7-sns-left-->
+      <div class="content7-sns-right">
+        <p>Tweet</p>
+      </div>
+      <!--content7-sns-right-->
+    </div>
+    <!--content7-sns-->
+    <div class="content7-fb cf">
+      <div class="content7-sns-left">
+        <i class="fab fa-facebook-square"></i>
+      </div>
+      <!--content7-sns-left-->
+      <div class="content7-sns-right">
+        <p>いいね！</p>
+      </div>
+      <!--content7-sns-right-->
+    </div>
+    <!--content7-fb-->
+    <div class="content7-share cf">
+     <p>シェア</p>
+    </div>
+    <!--content7-share-->
+
+
+
+
+ <div id="page-top" class="page-top">
+	<p><a id="move-page-top" class="move-page-top">▲</a></p>
+</div>
+
+</div>
+<!--content7-right-->
+</div>
+<!--content7-->
+<div class="content8">
+ <div class="content8-content cf">
+  <div class="content8-menu">
+    <div class="content8-menu-a">
+     <h3>Stores</h3>
+    </div>
+    <!--content8-menu-a-->
+    <div class="content8-menu-b">
+     <ul>
+       <li>直営店</li>
+       <li>販売店舗</li>
+     </ul>
+    </div>
+    <!--content8-menu-b-->
+    </div>
+    <!--content8-menu-->
+
+    <div class="content8-menu">
+      <div class="content8-menu-a">
+       <h3>Members</h3>
+      </div>
+      <!--content8-menu-a-->
+      <div class="content8-menu-b">
+       <ul>
+         <li>Coleman Outdoor Club</li>
+         <li>メールマガジン/登録/解除</li>
+       </ul>
+      </div>
+      <!--content8-menu-b-->
+      </div>
+      <!--content8-menu-->
+
+      <div class="content8-menu">
+        <div class="content8-menu-a">
+         <h3>About Coleman</h3>
+        </div>
+        <!--content8-menu-a-->
+        <div class="content8-menu-b">
+         <ul>
+           <li>会社概要</li>
+           <li>ビジョン</li>
+           <li>プレスルーム</li>
+           <li>求人情報</li>
+           <li>スマートフォンアプリ</li>
+           <li>コールマンの取り組み(CSR)</li>
+           <li>受賞歴</li>
+         </ul>
+        </div>
+        <!--content8-menu-b-->
+        </div>
+        <!--content8-menu-->
+
+        <div class="content8-menu">
+          <div class="content8-menu-a">
+           <h3>Online Catalog</h3>
+          </div>
+          <!--content8-menu-a-->
+          <div class="content8-menu-b">
+           <ul>
+             <li>Coleman Product Catalog</li>
+             <li>オンラインパーツカタログ</li>
+           </ul>
+          </div>
+          <!--content8-menu-b-->
+          </div>
+          <!--content8-menu-->
+
+          <div class="content8-menu">
+            <div class="content8-menu-a">
+             <h3>Coleman on</h3>
+            </div>
+            <!--content8-menu-a-->
+            <div class="content8-menu-c cf">
+             <ul>
+               <li><i class="fab fa-facebook-square"></i></li>
+               <li><i class="fab fa-twitter-square"></i></li>
+               <li><i class="fab fa-youtube-square"></i></li>
+               <li><i class="fab fa-instagram-square"></i></li>
+               <li><i class="fab fa-line"></i></li>
+             </ul>
+            </div>
+            <!--content8-menu-b-->
+            </div>
+            <!--content8-menu-->
+            <div class="footer cf">
+             <div class="footer-left cf">
+               <div class="footer-left-a">
+                <p>メールマガジン</p>
+               </div>
+               <!--footer-left-a-->
+               <div class="footer-left-a">
+                <p>店舗情報</p>
+               </div>
+               <!--footer-left-a-->
+               <div class="footer-left-b">
+                <p>カスタマーサポート</p>
+               </div>
+               <!--footer-left-b-->
+             </div>
+             <!--footer-left-->
+             <div class="footer-right">
+               <p>Copyright Coleman CO., Ltd All Rights Reserved</p>
+             </div>
+             <!--footer-right-->
+            </div>
+            <!--head-->
+ </div>
+ <!--content8-content-->
+</div>
+<!--content8-->
+</div>
+<!--wrapper-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
