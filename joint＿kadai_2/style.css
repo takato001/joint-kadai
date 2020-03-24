@@ -473,10 +473,10 @@ border-bottom:1px solid #888;
 
 }
 .top1-left{
-float:left;
 width:5%;
 padding:1% 1%;
-margin-left:17%;
+float: left;
+margin-left: 17%;
 border-right:1px solid #888;
 }
 .top1-left p{
@@ -492,16 +492,72 @@ margin-right:67%;
 font-size:0.5vw;
 color:#BB0000;
 }
-.top2-left{
-float:left;
+.top2{
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+      width: 100%;
+}
+.top2-left {
 width:40%;
 background-color: #888;
 border-right: 1px solid #888;
+
 }
+
 .top2-left ul li{
 padding:4% 42%;
 border-bottom:1px solid;
-font-size:1.5vw;
+font-size:1vw;
+}
+.top2-right{
+  width:60%;
+}
+.rrr{
+padding:2% 3%;
+}
+.top2-right-up{
+padding:2% 29%;
+letter-spacing:0.2em;
+}
+.top2-right-up h3{
+font-size:3vw;
+}
+.top2-right-up p{
+font-size:1vw;
+padding: 2% 25%;
+}
+.top2-right-center1{
+padding:0% 3%;
+text-align: center;
+}
+.top2-right-center1 p{
+font-size:1vw;
+line-height:1.5;
+}
+.top2-right-center1 span{
+font-size:1vw;
+line-height:1.5;
+color:#BB0000;
+padding:2% 0%;
+}
+.top2-right-center2{
+text-align: center;
+border:1px solid #BB0000;
+}
+.top2-right-center2 p{
+text-align: center;
+color:#BB0000;
+font-size:1vw;
+}
+
+
+
 =======
 
 
@@ -613,10 +669,7 @@ content: '';
   right: 0;
   left: 0;
   bottom: 0;
-width: 40%;
- background: -moz-linear-gradient(left, rgba(0,0,0,0.7), rgba(255,255,255,0.3));
-  background: -webkit-linear-gradient(left, rgba(0,0,0,0.7), rgba(255,255,255,0.3));
-  background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(255,255,255,0.3));
+width: 100%;
 }
 
 .event-B3-1 h2{
