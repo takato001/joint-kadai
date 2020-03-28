@@ -754,28 +754,81 @@ width: 20%;
 background-color: #FFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*curriculum 終わり*/
+
+
+
+
+/*member　はじめ*/
+
+.member-block1{
+box-shadow: 5px 1px 30px rgba(0, 0, 0, 1);
+    margin: 10% 0%;
+}
+
+.member-B1-flex{
+display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.member-B1-L{
+width: 40%;
+    padding: 2%;
+}
+
+.member-B1-L img{
+width:100%;
+}
+
+.member-B1-R{
+width: 60%;
+    padding: 5% 0%;
+}
+
+.member-B1-R h2{
+font-size: 1VW;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.member-B1-R h3{
+text-align: center;
+    color: #880000;
+    padding: 3%;
+    font-size: 0.8VW;
+}
+
+.member-B1-R p{
+font-size: 0.5VW;
+    letter-spacing: 0.4em;
+    padding: 0% 15%;
+    line-height: 1.5;
+}
+
+.member-B1-p{
+padding: 3% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+/*member　終わり*/
 
 
 
