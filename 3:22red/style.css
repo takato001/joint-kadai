@@ -926,3 +926,56 @@ font-weight:bold;
 .about-content-r p{
 font-size:1vw;
 }
+.message-content{
+margin-bottom:10%;
+}
+
+.message-content-con{
+  width:100%;
+  box-shadow:5px 10px 20px rgba(0,0,0,0.25);
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+      padding:3% 0%;
+}
+.message-content-con-l{
+width:60%;
+padding:2% 2%;
+}
+.message-content-con-l-up{
+text-align:center;
+}
+.message-content-con-l-up h3{
+font-size:1.5vw;
+font-weight:bold;
+}
+.message-content-con-l-up p{
+font-size:1.5vw;
+font-weight:bold;
+padding:2% 0%;
+}
+.message-content-con-l-down{
+padding:2% 0%;
+}
+.message-content-con-l-down p{
+font-size:0.8vw;
+line-height:2;
+letter-spacing:0.2em;
+}
+
+
+.message-content-con-r{
+width:40%;
+padding:2% 2%;
+}
+.message-content-con-r img{
+width:100%;
+}
