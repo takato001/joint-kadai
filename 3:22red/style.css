@@ -8,78 +8,126 @@ min-width:1200px;
 /*menu*/
 
 .menu {
-display: -webkit-box; */
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-padding: 1% 10%;
+　　padding: 1% 10%;
+　　width: 100%;
+}
+.aaa{
+float:left;
+width:20%;
+text-align: center;
+}
+.aaa img {
+    width:50%;
 }
 
-.menu img {
-    width: 12%;
-    padding-right: 5%;
+.bbb{
+float:left;
+display:block;
+text-align: center;
+width: 16%;
+padding:2% 0%;
+}
+.bbb p{
+font-size:1vw;
+}
+.bbb span{
+font-size:0.5vw;
 }
 
-.menu a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: #000;
+.top-1{
+width:100%;
+display:none;
+background-color: #444444;
+padding:2% 0%;
+text-align:center;
 }
+.top-1 ul li{
+float:left;
+width:5%;
+padding:2% 0%;
+margin-left: 15%;
+}
+.top-1 ul li a {
+font-size:1vw;
+color:#fff;
 
-label {
-display: block;
-    line-height: 1.5;
-    color: #000;
-    background: #FFF;
-    cursor: pointer;
-    font-size: 0.8VW;
-    font-weight: 600;
-    text-align: center;
-    width: 30%;
 }
+/*menu一つ目*/
+.ccc{
+float:left;
+display:block;
+text-align: center;
+width: 16%;
+padding:2% 0%;
+}
+.ccc p{
+font-size:1vw;
+}
+.ccc span{
+font-size:0.5vw;
+}
+.top-2{
+  width:100%;
+display:none;
+background-color: #444444;
+padding:2% 0%;
 
-.menu-sabu{
-font-weight: 100;
-    font-size: 0.5VW;
 }
+.top-2 ul li{
+float:left;
+width:10%;
+padding:2% 0%;
+font-size:1vw;
+color:#fff;
+}
+.top-2 ul li a {
+font-size:1vw;
+color:#fff;
 
-input {
-    display: none;
 }
+/*menu二つ目*/
+.ddd{
+float:left;
+text-align: center;
+width: 16%;
+padding:2% 0%;
+}
+.ddd p{
+font-size:1vw;
+}
+.ddd span{
+font-size:0.5vw;
+}
+/*menu三つ目、四つ目*/
+.eee{
+float:left;
+display:block;
+text-align: center;
+width: 16%;
+padding:2% 0%;
+}
+.eee p{
+font-size:1vw;
+}
+.eee span{
+font-size:0.5vw;
+}
+.top-3{
+  width:100%;
+display:none;
+background-color: #444444;
+padding:2% 0%;
+}
+.top-3 ul li{
+padding:2% 0%;
+}
+.top-3 ul li a {
+font-size:1vw;
+color:#fff;
 
-.menu ul {
-    margin: 0;
-    padding: 0;
-    background :#f4f4f4;
-    list-style: none;
 }
+/*menu五つ目*/
 
-.menu li {
-    height: 0;
-    overflow: hidden;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#menu_bar01:checked ~ #links01 li,
-#menu_bar02:checked ~ #links02 li,
-#menu_bar03:checked ~ #links03 li,
-#menu_bar04:checked ~ #links04 li,
-#menu_bar05:checked ~ #links05 li {
-    height: 54px;
-    opacity: 1;
-}
 
 /*menu　終わり*/
 
@@ -396,7 +444,7 @@ font-size: 0.5VW;
     color: rgb(0,0,0,0.8);
 }
 
- 
+
 
 
 .curri-block2{

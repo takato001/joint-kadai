@@ -6,63 +6,102 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="respon.css">
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width,initial-scale=1"i>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--レスポンシブ-->
 <script src="https://kit.fontawesome.com/dda8a2430a.js" crossorigin="anonymous"></script>
+<!--アイコン-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
 
+<script>
+$(function(){
+$(".bbb").on("click",function(){
+		 	$(".top-1").slideToggle(2000);
+		 });
 
+     $(".ccc").on("click",function(){
+     		 	$(".top-2").slideToggle(2000);
+     		 });
 
-
-
+         $(".eee").on("click",function(){
+         		 	$(".top-3").slideToggle(2000);
+         		 });
+      });
+</script>
 </head>
 <body>
 <div class="wrapper">
+　
+  <div class="menu cf">
+    <div class="aaa">
+    <img src="photo/red_logo.png">
+    </div><!--aaa-->
 
-  <div class="menu">
-      <img src="photo/red_logo.png">
-      <label for="menu_bar01">COMPANY<br><span class="menu-sabu">会社概要</span></label>
-      <input type="checkbox" id="menu_bar01" class="accordion" />
-      <ul id="links01">
-          <li><a href="company.html">会社概要</a></li>
-          <li><a href="member.html">社員紹介</a></li>
-      </ul>
-      <label for="menu_bar02">PROGRAMMING　SCHOOL<br><span class="menu-sabu">プログラミングスクール</span></label>
-      <input type="checkbox" id="menu_bar02" class="accordion" />
-      <ul id="links02">
-          <li><a href="curriculum.html">カリキュラム</a></li>
-          <li><a href="fee.html">料金・コース</a></li>
-          <li><a href="q-a.html">Q＆A</a></li>
-          <li>生徒用</li>
-      </ul>
-      <label for="menu_bar03">WEB　DESIGN<br><span class="menu-sabu">Web制作</span></label>
-      <input type="checkbox" id="menu_bar01" class="accordion" />
+        <div class="bbb">
+          <p>COMPANY</p>
+          <span>会社概要</span>
+        </div><!--bbb-->
 
-      <label for="menu_bar04">HUMAN　RESOURCES<br><span class="menu-sabu">人材事業</span></label>
-      <input type="checkbox" id="menu_bar01" class="accordion" />
+     <div class="ccc">
+       <p>PROGRAMMING　SCHOOL</p>
+       <span>プログラミングスクール</span>
+     </div><!--ccc-->
 
-      <label for="menu_bar05">COMPANY<br><span class="menu-sabu">会社概要</span></label>
-      <input type="checkbox" id="menu_bar01" class="accordion" />
-      <ul id="links01">
-          <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-  </div><!--menu-->
+      <div class="ddd">
+        <p>WEB DESIGN</p>
+        <span>web制作</span>
+       </div><!--bbb-->
+
+       <div class="ddd">
+         <p>HUMAN RESOURES</p>
+         <span>人材事業</span>
+       </div><!--bbb-->
 
 
-
-
+    <div class="eee">
+      <p>CONTACT</p>
+      <span>お問い合わせ</span>
+     </div><!--bbb-->
 
 
 
+ <div class="top-1 cf">
+<ul>
+  <li><a href="company.html">会社概要</a></li>
+  <li><a href="company.html">社員紹介</a></li>
+</ul>
+</div><!--top-1-->
+
+<div class="top-2 cf">
+<ul>
+ <li><a href="curriculum.html">カリキュラム</a></li>
+ <li><a href="fee.html">料金・コース</a></li>
+ <li><a href="q-a.html">Q＆A</a></li>
+ <li>生徒用</li>
+</ul>
+</div><!--top-2-->
+
+<div class="top-3">
+<ul>
+  <li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</div><!--top-3-->
+
+
+</div><!--menu-->
 
 
 
 
-  <div class="top-mein">
+
+
+
+
+　　<div class="top-mein">
     <h2><span class="top-mein-sabu">e</span>volution</h2>
     <h3>挑戦し続ける<span class="top-mein-sabu">進化</span>の為に</h3>
-    <i class="fab fa-instagram-square"></i>
-  </div><!--top-mein-->
-
-
+    <i class="fab fa-instagram-square" aria-hidden="true"></i>
+   </div><!--top-mein-->
 
 
 </div><!--wrapper-->
