@@ -6,22 +6,89 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="respon.css">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<!--レスポンシブ-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
+<script>
+$(function(){
+$(".bbb").on("click",function(){
+		 	$(".top-1").slideToggle(2000);
+		 });
+
+     $(".ccc").on("click",function(){
+     		 	$(".top-2").slideToggle(2000);
+     		 });
+
+         $(".eee").on("click",function(){
+         		 	$(".top-3").slideToggle(2000);
+         		 });
+      });
+</script>
 
 
 </head>
 <body>
 <div class="wrapper">
 
-  <div class="menu">
+  <div class="menu cf">
     <div class="aaa">
     <img src="photo/red_logo.png">
-  </div><!--aaa-->
-    <h2>COMPANY<br><span class="menu-sabu">会社概要</span></h2>
-    <h2>PROGRAMMING　SCHOOL<br><span class="menu-sabu">プログラミングスクール</span></h2>
-    <h2>WEB　DESIGN<br><span class="menu-sabu">Web制作</span></h2>
-    <h2>HUMAN　RESOURCES<br><span class="menu-sabu">人材事業</span></h2>
-    <h2>CONTACT<br><span class="menu-sabu">お問い合わせ</span></h2>
+    </div><!--aaa-->
+
+        <div class="bbb">
+          <p>COMPANY</p>
+          <span>会社概要</span>
+        </div><!--bbb-->
+
+     <div class="ccc">
+       <p>PROGRAMMING　SCHOOL</p>
+       <span>プログラミングスクール</span>
+     </div><!--ccc-->
+
+      <div class="ddd">
+        <p>WEB DESIGN</p>
+        <span>web制作</span>
+       </div><!--bbb-->
+
+       <div class="ddd">
+         <p>HUMAN RESOURES</p>
+         <span>人材事業</span>
+       </div><!--bbb-->
+
+
+    <div class="eee">
+      <p>CONTACT</p>
+      <span>お問い合わせ</span>
+     </div><!--bbb-->
+
+
+
+  <div class="top-1 cf">
+  <ul>
+  <li><a href="company.html">会社概要</a></li>
+  <li><a href="company.html">社員紹介</a></li>
+  </ul>
+  </div><!--top-1-->
+
+  <div class="top-2 cf">
+  <ul>
+  <li><a href="curriculum.html">カリキュラム</a></li>
+  <li><a href="fee.html">料金・コース</a></li>
+  <li><a href="q-a.html">Q＆A</a></li>
+  <li>生徒用</li>
+  </ul>
+  </div><!--top-2-->
+
+  <div class="top-3">
+  <ul>
+  <li><a href="contact.html">お問い合わせ</a></li>
+  </ul>
+  </div><!--top-3-->
+
+
   </div><!--menu-->
+
+
 
 <!--margin-top付けて、ここからお願いします-->
 
@@ -84,6 +151,7 @@
    </div><!--content-down1-right-->
   </div><!--content-down1-->
 </div><!--content-down-->
+
 <div class="content-down">
   <div class="content-down1">
    <div class="content-down1-left">
@@ -105,6 +173,80 @@
    </div><!--content-down1-right-->
   </div><!--content-down1-->
 </div><!--content-down-->
+
+
+
+<div class="respon-content-down">
+  <div class="respon-content-down1">
+  <div class="respon-content-down1-1">
+       <h3>HP制作・リニューアル</h3>
+    </div><!--respon-content-down1-1-->
+    <div class="respon-content-down1-2">
+       <span>「想像〜omoi〜を形に」</span>
+    </div><!--respon-content-down1-2-->
+    <div class="respon-content-down1-3">
+    <img src="photo/content-down1-left.jpg">
+    </div><!--respon-content-down1-3-->
+    <div class="respon-content-down1-4">
+      <p>お客様が表現したいHPをREDの制作チームが寄り添い完成まで丁寧に自信を持ってサポー
+トさせて頂きます。さらにREDでは自社での人材サポートも行っているので、採用LPなどの制作、LP制作
+だけでなく御社のリクルートに関する人材サポートにも力を入れております。</p>
+    </div><!--respon-content-down1-4-->
+
+
+  </div><!--respon-content-down1-->
+
+</div><!--respon-content-down-->
+
+<div class="respon-content-down">
+  <div class="respon-content-down1">
+  <div class="respon-content-down1-1">
+         <h3>スクール事業</h3>
+    </div><!--respon-content-down1-1-->
+    <div class="respon-content-down1-2">
+       <span>「今までのatarimaeではなく　これからのatarimaeを</span>
+    </div><!--respon-content-down1-2-->
+    <div class="respon-content-down1-3">
+    <img src="photo/content-down1-left2.jpg">
+    </div><!--respon-content-down1-3-->
+    <div class="respon-content-down1-4">
+      <p>多様化が進む時代の中で自由な選択や自由な将来設計ができるからこそ知識と経験という武
+器が必要だと思っております。一人一人趣味嗜好が違うように将来の目標も違うと思い決まったカリキュラ
+ムではなくお客様が求めるゴール設計を共に行い、個別サポートにてサービス設計を提案しプログラミング
+技術を生かすところまでサポートしております。</p>
+    </div><!--respon-content-down1-4-->
+
+  </div><!--respon-content-down1-->
+
+</div><!--respon-content-down-->
+
+<div class="respon-content-down">
+  <div class="respon-content-down1">
+  <div class="respon-content-down1-1">
+      <h3>人材事業</h3>
+    </div><!--respon-content-down1-1-->
+    <div class="respon-content-down1-2">
+        <span>「本気になる　mokutekiを見つける」</span>
+    </div><!--respon-content-down1-2-->
+    <div class="respon-content-down1-3">
+         <img src="photo/content-down1-left3.jpg">
+    </div><!--respon-content-down1-3-->
+    <div class="respon-content-down1-4">
+      <p>就職活動または転職活動に関する不安や焦りは、全ての人間においてあるもので多くの人の
+悩みであり、その不安を忘れる事は出来ても掻き消す事は出来ない。そのため専門的な知識を用いて、一人
+一人に向けた人材サポート「一人が一人の為に」をテーマに掲げ社会サポートをしていきます。</p>
+    </div><!--respon-content-down1-4-->
+
+  </div><!--respon-content-down1-->
+
+</div><!--respon-content-down-->
+
+
+
+
+
+
+
 
 <div class="about">
 <div class="content-up">
@@ -202,7 +344,36 @@
 
 </div><!--message-content-->
 
+ <div class="respon-message-content-con">
+  <div class="respon-message-content-con-1">
+    <h3>久保田 幸太郎<br><br>Kubota Kotaro</h3>
+     <p>代表取締役</p>
+  </div><!--respon-message-content-con-1-->
+  <div class="respon-message-content-con-2">
+     <img src="photo/message-content-con-r1.jpg">
+  </div><!--respon-message-content-con-2-->
+  <div class="respon-message-content-con-3">
+    <p>人生半分以上をスポーツに身を投じ、心身共に20年かけて精通して参りました。しかし大学3年生
+  の頃に当たり前に強く疑問を持ち勢いのままに大学を中退し何のプランもなく世間に飛び出し様々な業界で
+  仕事をしてみました！<br>私は、自分の力で何かできることはないかと思っていて,
+  現在に到るまで常に考えて参りました。<br>その数年間で沢山の失敗や成功　出会いや別れ　沢山の経験を
+  し気がついたことがありました。「不可能なんてない」ということ　失敗なんてどんなに計算し準備したと
+  ころで失敗するときは失敗するのです。だから大切なのは、「辞めないこと」これが私の人生のテーマです。
+  </p><br><br>
+  <p>我が社の勤めは<br>１、一人一人　一社一社に自らの用いるベストを尽くすこと<br>２、固定概念や
+  当たり前に縛られず、常に本質を求めること<br>３、何を得れるのか？ではなく何を与えられるのか？<br
+  >私たちは常に挑戦者として、お客様に最高を届けられる、サービスを進化し続けて行きたいと思っており
+  ます。<br>若輩物の集まりですが、何卒宜しくお願い申し上げます。</p>
+  </div><!--respon-message-content-con-3-->
+  <div class="respon-message-content-con-4">
+  <img src="photo/message-content-con-r2.jpg">
+  </div><!--respon-message-content-con-4-->
 
+
+
+
+
+ </div><!--respon-message-content-con-->
 
 </div><!--content-->
   <div class="footer">

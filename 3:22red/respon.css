@@ -3,24 +3,168 @@
 
 
 
+/*ここから下はcompany.htmlのレスポンシブ*/
+  .company img {
+      width: 100%;
+      /* height: 50vh; */
+      position: relative;
+  }
+  .company-write {
+    position: absolute;
+    top: 30%;
+    left: 120%;
+    /* padding: 0% 0%; */
+    text-align: center;
+}
+.company-write p {
+    font-size: 11.5vw;
+    color: #fff;
+    line-height: 1.5;
+}
+.company-write span {
+    font-size: 9vw;
+    color: #fff;
+}
 
+.content{
+padding:0% 0%;
+}
 
+.content-up h3 {
+    font-size: 15vw;
+    letter-spacing: 0.2em;
+    line-height: 2;
+}
 
+.content-up p {
+    font-size: 10vw;
+    letter-spacing: 0.2em;
+    line-height: 2;
+    font-weight: bold;
+}
 
+.content-down{
+display: none;
+}
 
+.respon-content-down{
+display:block;
+padding: 10% 0%;
+}
+.respon-content-down1{
+width:100%;
+box-shadow:5px 10px 20px rgba(0,0,0,0.25);
+}
+.respon-content-down1-1{
+text-align: center;
+padding:5% 0%;
+}
 
+.respon-content-down1-1 h3{
+font-size:12vw;
+line-height:1.5;
+}
+.respon-content-down1-2{
+  padding:3% 0%;
+  text-align: center;
+}
 
+.respon-content-down1-2 span{
+font-size:9vw;
+line-height:1.5;
+color:#BB0000;
+letter-spacing: 0.2em;
+}
+.respon-content-down1-3 {
+padding:2% 0%;
+}
+.respon-content-down1-3 img{
+width:100%;
+}
+.respon-content-down1-4 {
+padding:5% 3%;
+}
+.respon-content-down1-4 p{
+  font-size:9vw;
+  line-height:1.5;
+  letter-spacing:0.2em;
+}
 
+.about-content {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 3% 10%;
+}
 
+.about-content-l span {
+    font-size: 10vw;
+    font-weight: bold;
+}
+.about-content-r span {
+    font-size: 10vw;
+    font-weight: bold;
+}
 
+.about-content-l p {
+    font-size: 10vw;
+}
+.about-content-r p {
+    font-size: 10vw;
+}
 
+.respon-message-content-con{
+display:block;
+width:100%;
+box-shadow:5px 10px 20px rgba(0,0,0,0.25);
+}
 
+.message-content-con{
+display:none;
+}
+.respon-message-content-con-1{
+padding:3% 0%;
+text-align:center;
+}
 
-
-
-
-
-
+.respon-message-content-con-1 h3{
+font-size:13vw;
+font-weight:bold;
+}
+.respon-message-content-con-1 p{
+font-size:5vw;
+font-weight:bold;
+padding:2% 0%;
+}
+.respon-message-content-con-2{
+padding:3% 0%;
+}
+.respon-message-content-con-2 img{
+width:100%;
+}
+.respon-message-content-con-3{
+padding:3% 10%;
+}
+.respon-message-content-con-3 p{
+  font-size:7vw;
+  line-height:2;
+  letter-spacing:0.2em;
+}
+.respon-message-content-con-4{
+padding:3% 0%;
+}
+.respon-message-content-con-4 img{
+width:100%;
+}
 
 
 

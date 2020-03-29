@@ -952,9 +952,15 @@ display:-webkit-box;
 width:40%;
 padding:0% 2%;
 }
+
 .content-down1-left img{
 width:100%;
 }
+.content-down1-left img:hover{
+ opacity: 0.5;
+  transition: .3s;
+}
+
 .content-down1-right{
 width:60%;
 padding:0% 2%;
@@ -986,6 +992,18 @@ font-size:0.5vw;
 line-height:1.5;
 letter-spacing:0.2em;
 }
+
+.respon-content-down{
+display:none;
+}
+
+
+
+
+
+
+
+
 .about{
 padding:10% 0%;
 }
@@ -1080,3 +1098,14 @@ padding:2% 2%;
 .message-content-con-r img{
 width:100%;
 }
+.message-content-con-r img:hover{
+  opacity: 0.5;
+   transition: .3s;
+}
+.respon-message-content-con{
+display:none;
+}
+
+
+
+/*company終わり*/
