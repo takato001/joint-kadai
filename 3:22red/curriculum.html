@@ -8,20 +8,92 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script src="https://kit.fontawesome.com/dda8a2430a.js" crossorigin="anonymous"></script>
 
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
+
+<script>
+$(function(){
+$(".bbb").on("click",function(){
+		 	$(".top-1").slideToggle(2000);
+		 });
+
+     $(".ccc").on("click",function(){
+     		 	$(".top-2").slideToggle(2000);
+     		 });
+
+         $(".eee").on("click",function(){
+         		 	$(".top-3").slideToggle(2000);
+         		 });
+      });
+</script>
 </head>
 <body>
 <div class="wrapper">
 
-  <div class="menu">
+  <div class="menu cf">
+    <div class="aaa">
     <img src="photo/red_logo.png">
-    <h2>COMPANY<br><span class="menu-sabu">会社概要</span></h2>
-    <h2>PROGRAMMING　SCHOOL<br><span class="menu-sabu">プログラミングスクール</span></h2>
-    <h2>WEB　DESIGN<br><span class="menu-sabu">Web制作</span></h2>
-    <h2>HUMAN　RESOURCES<br><span class="menu-sabu">人材事業</span></h2>
-    <h2>CONTACT<br><span class="menu-sabu">お問い合わせ</span></h2>
-  </div><!--menu-->
+    </div><!--aaa-->
 
-<!--margin-top付けて、ここからお願いします-->
+        <div class="bbb">
+          <p>COMPANY</p>
+          <span>会社概要</span>
+        </div><!--bbb-->
+
+     <div class="ccc">
+       <p>PROGRAMMING　SCHOOL</p>
+       <span>プログラミングスクール</span>
+     </div><!--ccc-->
+
+      <div class="ddd">
+        <p>WEB DESIGN</p>
+        <span>web制作</span>
+       </div><!--bbb-->
+
+       <div class="ddd">
+         <p>HUMAN RESOURES</p>
+         <span>人材事業</span>
+       </div><!--bbb-->
+
+
+    <div class="eee">
+      <p>CONTACT</p>
+      <span>お問い合わせ</span>
+     </div><!--bbb-->
+
+
+
+ <div class="top-1 cf">
+<ul>
+  <li><a href="company.html">会社概要</a></li>
+  <li><a href="company.html">社員紹介</a></li>
+</ul>
+</div><!--top-1-->
+
+<div class="top-2 cf">
+<ul>
+ <li><a href="curriculum.html">カリキュラム</a></li>
+ <li><a href="fee.html">料金・コース</a></li>
+ <li><a href="q-a.html">Q＆A</a></li>
+ <li>生徒用</li>
+</ul>
+</div><!--top-2-->
+
+<div class="top-3">
+<ul>
+  <li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</div><!--top-3-->
+
+
+</div><!--menu-->
 
 
 
