@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="respon.css">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-sc
+ale=1.0, minimum-scale=1.0">
 <!--レスポンシブ-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!--jquery-->
@@ -22,6 +23,37 @@ $(".bbb").on("click",function(){
          $(".eee").on("click",function(){
          		 	$(".top-3").slideToggle(2000);
          		 });
+
+						 $(function () {
+					  $('.zdo_drawer_button').click(function () {
+					    $(this).toggleClass('active');
+					  })
+					})
+
+
+
+					$(".footer-L1 h2").on("click",function(){
+							 	$(".footer-L1 ul").slideToggle(1000);
+							 });
+
+							 $(".footer-L2 h2").on("click",function(){
+		 							 	$(".footer-L2 ul").slideToggle(2000);
+		 							 });
+
+									 $(".footer-L3 h2").on("click",function(){
+				 							 	$(".footer-L3 ul").slideToggle(1500);
+				 							 });
+
+											 $(".footer-L4 h2").on("click",function(){
+						 							 	$(".footer-L4 ul").slideToggle(3000);
+						 							 });
+
+
+
+
+
+
+
       });
 </script>
 
@@ -34,7 +66,7 @@ $(".bbb").on("click",function(){
     <div class="aaa">
     <img src="photo/red_logo.png">
     </div><!--aaa-->
-
+       <div class="ryo">
         <div class="bbb">
           <p>COMPANY</p>
           <span>会社概要</span>
@@ -84,13 +116,20 @@ $(".bbb").on("click",function(){
   <li><a href="contact.html">お問い合わせ</a></li>
   </ul>
   </div><!--top-3-->
+</div><!--ryo-->
+
+	<button type="button" class="zdo_drawer_button">
+   <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+   <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+   <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+   <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+   <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+ </button>
 
 
   </div><!--menu-->
 
 
-
-<!--margin-top付けて、ここからお願いします-->
 
 <div class="company">
  <img src="photo/company-1.jpg">

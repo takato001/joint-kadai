@@ -19,6 +19,12 @@ text-align: center;
 .aaa img {
     width:50%;
 }
+.zdo_drawer_button{
+display:none;
+}
+
+
+
 
 .bbb{
 float:left;
@@ -127,6 +133,8 @@ color:#fff;
 
 }
 /*menu五つ目*/
+
+
 
 
 /*menu　終わり*/
@@ -1304,8 +1312,7 @@ position:relative;
 .company-write{
 position:absolute;
 top:25%;
-left:30%;
-padding:0% 15%;
+left:45%;
 text-align: center;
 }
 .company-write p{
