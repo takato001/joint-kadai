@@ -465,12 +465,6 @@ width:100%;
     padding-top: 20%;
 }
 
-.curri-mein {
-    margin: 0% 0%;
-    border-left: solid 1px rgb(178,163,129,0.2);
-    border-right: solid 1px rgb(178,163,129,0.2);
-}
-
 .member-B1-flex {
     display: none;
     display: -webkit-flex;

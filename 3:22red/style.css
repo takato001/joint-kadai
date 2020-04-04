@@ -1250,23 +1250,32 @@ border-bottom: solid 1px rgb(0,0,0,0.7);
 }
 
 .fee-B5-cell2{
-text-align: center;
+padding: 2%;
+    text-align: center;
     width: 20%;
-    border: solid 2px #880000;
-    margin: 2%;
 }
 
 .fee-B5-cell2 h3{
 font-size: 1.5VW;
-    border-bottom: solid 1px #880000;
     padding: 15%;
-    background-color: #880000;
+background-color: #880000;
 }
 
 .fee-B5-cell2 p{
-border-bottom: solid 1px #880000;
     padding: 15%;
     font-size: 0.5VW;
+border-bottom: solid 1px #880000;
+    border-right: solid 3px #880000;
+    border-left: solid 3px #880000;
+}
+
+.fee-B5-cell2 h4{
+    padding: 15%;
+    font-size: 0.5VW;
+border-bottom: solid 3px #880000;
+    border-right: solid 3px #880000;
+    border-left: solid 3px #880000;
+font-weight: 400;
 }
 
 /*fee 終わり*/
