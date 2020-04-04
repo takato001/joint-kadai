@@ -458,17 +458,43 @@ width:100%;
 
 /*ここまでcompany.htmlのレスポンシブ*/
 
+/*member*/
 
+.curri-top-text h2 {
+    font-size: 5VW;
+    padding-top: 20%;
+}
 
+.curri-mein {
+    margin: 0% 0%;
+    border-left: solid 1px rgb(178,163,129,0.2);
+    border-right: solid 1px rgb(178,163,129,0.2);
+}
 
+.member-B1-flex {
+    display: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
 
+.member-B1-L {
+    width: 100%;
+    padding: 2%;
+}
 
-
-
-
-
-
-
+.member-B1-R {
+    width: 100%;
+    padding: 5% 0%;
+}
 
 
 
