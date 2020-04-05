@@ -1606,9 +1606,27 @@ border-top: solid 1px rgb(178,163,129,0.2);
 .contact-B4-cell{
 padding: 10% 0%;
     border-right: solid 1px rgb(178,163,129,0.2);
-width: 30%;
+width: 36.2%;
 font-size: 1VW;
 height: 185px;
+}
+
+.contact-B4-cell2{
+padding: 4% 0%;
+    border-right: solid 1px rgb(178,163,129,0.2);
+width: 30%;
+font-size: 1VW;
+height:50px;
+}
+
+.contact-B4-cell22 p{
+font-size: 0.5VW;
+padding-top: 5%;
+}
+
+.contact-B4-cell44 p{
+font-size: 0.5VW;
+padding-top: 5%;
 }
 
 .contact-B4-sabu{
@@ -1617,6 +1635,14 @@ background-color: #880000;
     color: #FFF;
     padding: 2%;
 margin-left: 5%;
+}
+
+.contact-B4-sabu2{
+background-color: rgb(178,163,129);
+    font-size: 0.5VW;
+    color: #FFF;
+    padding: 2%;
+    margin-left: 5%;
 }
 
 .contact-B4-cell1{
