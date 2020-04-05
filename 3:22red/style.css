@@ -649,6 +649,9 @@ padding: 3% 1%;
     justify-content: center;
 width: 100%;
 }
+.respon-curri-B3b-bosu{
+display: none;
+}
 
 .curri-B3b-1{
 display: -webkit-box;
@@ -781,7 +784,9 @@ display: -webkit-box;
     width: 100%;
 font-size: 1VW;
 }
-
+.respon-curri-B4-cell2{
+display:none;
+}
 .curri-cell{
 padding: 2% 0%;
 }
