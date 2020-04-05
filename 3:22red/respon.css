@@ -4,17 +4,48 @@
 min-width:0;
 }
 
+.respon_open_menu{
+  position: absolute;
+  top:3%;
+  right: 15%
+}
+.aaa{
+  float:none;
+}
+
+
+.bbb{
+  float:none;
+  width: 100%;
+}
+
+.ccc{
+  float:none;
+  width: 100%;
+}
+
+.ddd{
+  float:none;
+  width: 100%;
+}
+
+.eee{
+  float:none;
+  width: 100%;
+}
 
 .ryo{
 display:none;
+
 }
 
 .menu {
 padding: 1% 10%;
 width: 100%;
+position: relative;
 }
+
 .aaa{
-float:left;
 width:20%;
 text-align: center;
 margin-left: 10%
@@ -53,7 +84,6 @@ padding-left: 0%;
 line-height: 1.5em;
 margin-left: 43%;
 margin-top: 5%;
-
 }
 
 .footer-L1 ul li{
@@ -351,6 +381,7 @@ width:100%;
 
 /*member*/
 
+<<<<<<< HEAD
 .curri-top-text h2 {
     font-size: 5VW;
     padding-top: 20%;
@@ -376,6 +407,8 @@ width:100%;
     padding: 5% 0%;
 }
 
+=======
+>>>>>>> 62d21413faa3108078111d670e9a3424272d0475
 /*ここからカリキュラムレスポンシブ*/
 .curri-block2{
 background-color: rgb(178,163,129,0.2);
@@ -677,10 +710,13 @@ background-color: #FFF;
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 62d21413faa3108078111d670e9a3424272d0475
 /*ここまでcompany.htmlのレスポンシブ*/
 
 /*member*/
@@ -717,6 +753,7 @@ background-color: #FFF;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -727,4 +764,6 @@ background-color: #FFF;
 
 
 
+=======
+>>>>>>> 62d21413faa3108078111d670e9a3424272d0475
 }
