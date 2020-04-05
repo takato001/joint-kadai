@@ -49,8 +49,22 @@ $(".bbb").on("click",function(){
 						 							 });
 
 
+        $(".ccc").on("click",function(){
+           $(".top-1").css("display","none");
+				   $(".top-3").css("display","none");
+				});
+				$(".bbb").on("click",function(){
+           $(".top-2").css("display","none");
+				   $(".top-3").css("display","none");
+				});
+				$(".eee").on("click",function(){
+           $(".top-1").css("display","none");
+				   $(".top-2").css("display","none");
+				});
 
-
+				$(".respon_open_menu").on("click",function(){
+					 $(".ryo").slideToggle(1000);
+				});
 
 
 
@@ -64,37 +78,32 @@ $(".bbb").on("click",function(){
 
   <div class="menu cf">
     <div class="aaa">
-    <img src="photo/red_logo.png">
+        <img src="photo/red_logo.png">
     </div><!--aaa-->
-       <div class="ryo">
+     <div class="ryo cf">
         <div class="bbb">
-          <p>COMPANY</p>
-          <span>会社概要</span>
+           <p>COMPANY</p>
+           <span>会社概要</span>
         </div><!--bbb-->
+        <div class="ccc">
+            <p>PROGRAMMING　SCHOOL</p>
+            <span>プログラミングスクール</span>
+        </div><!--ccc-->
+        <div class="ddd">
+            <p>WEB DESIGN</p>
+            <span>web制作</span>
+        </div><!--bbb-->
+        <div class="ddd">
+            <p>HUMAN RESOURES</p>
+            <span>人材事業</span>
+        </div><!--bbb-->
+        <div class="eee">
+            <p>CONTACT</p>
+            <span>お問い合わせ</span>
+        </div><!--bbb-->
+		 </div><!--ryo-->
 
-     <div class="ccc">
-       <p>PROGRAMMING　SCHOOL</p>
-       <span>プログラミングスクール</span>
-     </div><!--ccc-->
-
-      <div class="ddd">
-        <p>WEB DESIGN</p>
-        <span>web制作</span>
-       </div><!--bbb-->
-
-       <div class="ddd">
-         <p>HUMAN RESOURES</p>
-         <span>人材事業</span>
-       </div><!--bbb-->
-
-
-    <div class="eee">
-      <p>CONTACT</p>
-      <span>お問い合わせ</span>
-     </div><!--bbb-->
-
-
-
+<div class="under_menu">
   <div class="top-1 cf">
   <ul>
   <li><a href="company.html">会社概要</a></li>
@@ -116,15 +125,16 @@ $(".bbb").on("click",function(){
   <li><a href="contact.html">お問い合わせ</a></li>
   </ul>
   </div><!--top-3-->
-</div><!--ryo-->
-
+</div>
+<div class="respon_open_menu">
 	<button type="button" class="zdo_drawer_button">
-   <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
-   <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
-   <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
-   <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
-   <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
- </button>
+      <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+      <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+      <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+      <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+      <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+  </button>
+</div>
 
 
   </div><!--menu-->
